@@ -20,3 +20,5 @@ data. It was basically developed to overcome the bottleneck of Von Neumann Archi
 - Instruction Execute (IE)
 ### Pipeline: 
 - 3 instructions (maximum) running in parallel
+- Control Hazards are handled.
+- Data Hazards are NOT handled.
