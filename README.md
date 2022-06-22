@@ -13,17 +13,5 @@ data. It was basically developed to overcome the bottleneck of Von Neumann Archi
 - Instruction Size: 16 bits
 - Instruction Types: 2 (R-Format and I-Format)
 - Instruction Count: 12
-ADD R1 R2 -- R1 = R1 + R2
-SUB R1 R2 R1 = R1 - R2
-Multiply MUL R MUL R1 R2 R1 = R1 * R2
-Move Immediate MOVI I MOVI R1 IMM R1 = IMM
-Branch if Equal Zero BEQZ I BEQZ R1 IMM IF(R1 == 0) {
-PC = PC+1+IMM }
-And Immediate ANDI I ANDI R1 IMM R1 = R1 & IMM
-Exclusive Or EOR R EOR R1 R2 R1 = R1 ⊕ R2
-Branch Register BR R BR R1 R2 PC = R1 || R2
-Shift Arithmetic Left SAL I SAL R1 IMM R1 = R1 << IMM
-Shift Arithmetic Right SAR I SAR R1 IMM R1 = R1 >> IMM
-Load to Register LDR I LDR R1 ADDRESS R1 = MEM[ADDRESS]
-Store from Register STR I STR R1 ADDRESS MEM[ADDRESS] = R1
+
 
