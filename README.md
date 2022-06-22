@@ -20,6 +20,7 @@ data. It was basically developed to overcome the bottleneck of Von Neumann Archi
 - Instruction Fetch (IF)
 - Instruction Decode (ID)
 - Instruction Execute (IE)
+![image](https://user-images.githubusercontent.com/68354610/175104906-647def9a-7583-458b-ac2b-0cad6cddbfad.png)
 ### Pipeline 
 - 3 instructions (maximum) running in parallel
 - Data Hazards are NOT handled
