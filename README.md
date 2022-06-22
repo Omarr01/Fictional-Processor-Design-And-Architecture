@@ -9,9 +9,13 @@ data. It was basically developed to overcome the bottleneck of Von Neumann Archi
 - 64 General-Purpose Registers (GPRS), Names: R0 to R63.
 - 1 Status Register
 - 1 Program Counter
-## Instruction Set Architecture
+## Instruction Set Architecture:
 - Instruction Size: 16 bits
 - Instruction Types: 2 (R-Format and I-Format)
 - Instruction Count: 12
-
+## Datapath
+### Stages: 3
+- Instruction Fetch (IF)
+- Instruction Decode (ID)
+- Instruction Execute (IE)
 
