@@ -6,7 +6,7 @@ This project is a simulation of a fictional processor design and architecture.
 where there are separate storage and separate buses (signal path) for instruction and
 data. It was basically developed to overcome the bottleneck of Von Neumann Architecture.
 ## Registers:
-- 64 General-Purpose Registers (GPRS), Names: R0 to R63.
+- 64 General-Purpose Registers (GPRS), Names: R0 to R63
 - 1 Status Register
 - 1 Program Counter
 ## Instruction Set Architecture:
