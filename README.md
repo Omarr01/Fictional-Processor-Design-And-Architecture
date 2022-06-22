@@ -24,4 +24,4 @@ data. It was basically developed to overcome the bottleneck of Von Neumann Archi
 ### Pipeline 
 - 3 instructions (maximum) running in parallel
 - Data Hazards are NOT handled
-- However, Control Hazards are handled
+- However, Control Hazards are handled (Flushing Technique)
