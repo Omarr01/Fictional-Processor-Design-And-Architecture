@@ -13,7 +13,7 @@ data. It was basically developed to overcome the bottleneck of Von Neumann Archi
 - Instruction Size: 16 bits
 - Instruction Types: 2 (R-Format and I-Format)
 - Instruction Count: 12
-## Datapath
+## Datapath:
 ### Stages: 3
 - Instruction Fetch (IF)
 - Instruction Decode (ID)
