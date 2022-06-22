@@ -18,4 +18,5 @@ data. It was basically developed to overcome the bottleneck of Von Neumann Archi
 - Instruction Fetch (IF)
 - Instruction Decode (ID)
 - Instruction Execute (IE)
-### Pipeline: 3 instructions (maximum) running in parallel
+### Pipeline: 
+- 3 instructions (maximum) running in parallel
